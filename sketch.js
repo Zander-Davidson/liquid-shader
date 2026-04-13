@@ -55,7 +55,7 @@ gl_FragColor = texture2D(tex0, warpedCoord);
 `;
 
 async function setup() {
-    img = await loadImage('/assets/logo.png');
+    img = await loadImage('assets/logo.png');
 
     const container = document.getElementById('canvas-container');
     const canvas = createCanvas(WIDTH, HEIGHT, WEBGL);
